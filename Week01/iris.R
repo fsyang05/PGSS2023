@@ -1,5 +1,5 @@
 library(readr)
-iris <- read_csv("/Users/pgmenon/Documents/CMU/PGSS2023/CMU_PGSS2023_CSLab/Week01/iris.csv", 
+iris <- read_csv("C:/Users/fsyan/OneDrive/Desktop/Main/PGSS/CS Lab/Week1/iris.csv", 
                  col_names = FALSE, col_types = cols(X1 = col_double()))
 colnames(iris) <- c("Petal.Length", "Petal.Width", "Sepal.Length", "Sepal.Width", "Species")
 # View(iris)
@@ -18,4 +18,4 @@ print(table(iris$Species))
 library(ggplot2)
 library(cowplot)
 p1 <- ggplot(iris) + geom_boxplot(aes(x=Species, y=Sepal.Width, color=Species), outlier.alpha = 0.1) + theme_minimal()
-save_plot("/Users/pgmenon/Documents/CMU/PGSS2023/CMU_PGSS2023_CSLab/Week01/iris.png", p1, base_height=4, base_width=4, limitsize=FALSE)
+save_plot("C:/Users/fsyan/OneDrive/Desktop/Main/PGSS/CS Lab/Week1/iris.png", p1, base_height=4, base_width=4, limitsize=FALSE)

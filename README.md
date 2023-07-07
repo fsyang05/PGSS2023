@@ -1,2 +1,2 @@
 # PGSS2023
-CS Lab
+CS Laboratory 2023

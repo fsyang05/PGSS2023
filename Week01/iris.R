@@ -17,5 +17,6 @@ print(table(iris$Species))
 # install.packages("ggplot2"); install.packages("cowplot")
 library(ggplot2)
 library(cowplot)
+
 p1 <- ggplot(iris) + geom_boxplot(aes(x=Species, y=Sepal.Width, color=Species), outlier.alpha = 0.1) + theme_minimal()
 save_plot("C:/Users/fsyan/OneDrive/Desktop/Main/PGSS/CS Lab/Week1/iris.png", p1, base_height=4, base_width=4, limitsize=FALSE)

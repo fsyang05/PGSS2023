@@ -1,0 +1,21 @@
+# Using only single variables to train the machine learning model, we can try to determine which one is the most influential / most important in determining the final classification.
+
+Using 'petal.length' as the feature we train our model on:
+  precision = .72
+  recall = .72
+  f1-score = .71
+Using 'petal.width':
+  precision = .55
+  recall = .53
+  f1-score = .54
+Using 'sepal.length':
+  precision = .95
+  recall = .95
+  f1-score = .95
+Using 'sepal.width':
+  precision = .94
+  recall = .94
+  f1-score = .94
+
+Based on the results, it is clear that sepal length and width are the most influential factors in classifying the type of iris.
+We deduce this from the fact that when trained on those two single variables, the model retains a comparatively high accuracy.

@@ -7,7 +7,8 @@ This code is a Python notebook that demonstrates how to mount Google Drive, read
 
 
 # CMU_PGSS2023_CSLab/Week01/MyFirstColabNotebook01.ipynb
-This notebook is an equivalent of the above Colab notebook, written to be run on a local Conda environment, using VSCode as an IDE. 
+This notebook is an equivalent of the above Colab notebook, written to be run on a local Python
+environment, using VSCode as an IDE. 
 
 
 # R Exercises:
@@ -27,3 +28,7 @@ After that, it prints the class of each column of the data frame using print(sap
 It then visualizes the distribution of Species in a frequency table using print(table(iris$Species)).
 
 Finally, it generates a ggplot diagram to visualize a boxplot of Sepal.Width by Species and writes this plot out to an image file located at "C:/Users/fsyan/OneDrive/Desktop/Main/PGSS/CS Lab/Week1/iris.png" using ggplot2 and cowplot packages. The plot is saved using save_plot function with base height and width set to 4 and limitsize set to FALSE.
+
+# Week01 Notes (7/11/23)
+Rerun of 7/7 content + some new content, detailed below.
+

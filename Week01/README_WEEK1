@@ -45,5 +45,6 @@ Using sklearn module to classify types of irises; summary statistics, different 
 # General knowledge
 Overfitting: fitting too close to the trend of the data, unable to predict new data points
 Underfitting: not fitting to the trend of the data, inaccurate predictions
+Logistic regression used to classify (sigmoid curves)
 
 The goal of modeling is to generalize.

@@ -35,3 +35,16 @@ Rerun of 7/7 content + some new content, detailed below.
 Using ChatGPT to assist in data analysis, writing programs using GPT. Practicing adding files to repositories, working with Colaboratory
 Hopefully will have conda environment fixed soon and all modules reinstalled
 
+# Week01 Notes (7/14/23)
+Learning some R programming and more data analysis strategies / concepts
+
+# R files
+Learning about types of statistical distributions, how R and Python handle data, etc.
+Using sklearn module to classify types of irises; summary statistics, different tests for statistical significance
+
+# General knowledge
+Overfitting: fitting too close to the trend of the data, unable to predict new data points
+Underfitting: not fitting to the trend of the data, inaccurate predictions
+Logistic regression used to classify (sigmoid curves)
+
+The goal of modeling is to generalize.
